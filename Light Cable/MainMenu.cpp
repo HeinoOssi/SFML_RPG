@@ -43,8 +43,8 @@ void MainMenu::Update(sf::RenderWindow* window) {
 	sf::Vector2i mousepos = sf::Mouse::getPosition(*window);
 	std::cout << "x: " << mousepos.x << ", y: " << mousepos.y << std::endl;
 
-	if (mousepos.x > 248 && mousepos.x < 552 && mousepos.y >295
-		&& mousepos.y < 314) {
+	if (mousepos.x > 684 && mousepos.x < 994 && mousepos.y >449
+		&& mousepos.y < 465) {
 		// hiiri on start-napin päällä
 		play->setFillColor(sf::Color::Red);
 
@@ -53,8 +53,8 @@ void MainMenu::Update(sf::RenderWindow* window) {
 
 		}
 
-	} else if (mousepos.x > 369 && mousepos.x < 427 
-		&& mousepos.y > 410 && mousepos.y < 425){
+	} else if (mousepos.x > 812 && mousepos.x < 865 
+		&& mousepos.y > 561 && mousepos.y < 577){
 		// hiiri on quitin päällä
 		quit->setFillColor(sf::Color::Red);
 		// quit

@@ -8,6 +8,7 @@ TheGame::TheGame()
 }
 
 void TheGame::Initialize(sf::RenderWindow* window) {
+	window->clear();
 	this->font = new sf::Font();
 	this->font->loadFromFile("Resources/Xipital.ttf");
 	//this->score = new Score(*font, 64U);
@@ -18,16 +19,15 @@ void TheGame::Initialize(sf::RenderWindow* window) {
 	//this->pausedText = new sf::Text("Paused\nPress Escape to Quit", *font, 64U);
 	//this->pausedText->setOrigin(this->pausedText->getGlobalBounds().width / 2, this->pausedText->getGlobalBounds().height / 2);
 	//this->pausedText->setPosition(window->getSize().x / 2, window->getSize().y / 2);
-
-	//this->paused = false;
-	//this->enterKey = true;
-
+	
+	// renderöi inventory x=1536
+	
 	manager = new EntityManager();
 
 	map = new Map(manager);
 
 	this->manager->Add("PlayerCharacter", 
-		new Character(manager, map, 1,1));
+		new Character(manager, map, 160,160));
 	map->Load("test.map");
 
 
@@ -42,6 +42,8 @@ void TheGame::Update(sf::RenderWindow* window) {
 
 }
 void TheGame::Render(sf::RenderWindow* window) {
+	window->clear();
+
 	window->draw(*map);
 	this->manager->Render(window);
 	
