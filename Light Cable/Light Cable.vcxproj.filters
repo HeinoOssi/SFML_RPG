@@ -25,6 +25,12 @@
     <Filter Include="Source Files\Entity">
       <UniqueIdentifier>{7d143574-5918-4cb5-9590-302f26021ff7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Artificial Intelligence">
+      <UniqueIdentifier>{d9a03682-19c5-4770-8b31-a2db82b2ce53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Artificial Intelligence">
+      <UniqueIdentifier>{3248e350-be76-4d6f-a2ed-f4fb3b649263}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -51,6 +57,9 @@
     <ClCompile Include="Entity.cpp">
       <Filter>Source Files\Entity</Filter>
     </ClCompile>
+    <ClCompile Include="PathFinding.cpp">
+      <Filter>Source Files\Artificial Intelligence</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameState.h">
@@ -73,6 +82,9 @@
     </ClInclude>
     <ClInclude Include="EntityManager.h">
       <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinding.h">
+      <Filter>Header Files\Artificial Intelligence</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
