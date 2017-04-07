@@ -28,6 +28,7 @@ void TheGame::Initialize(sf::RenderWindow* window) {
 
 	this->manager->Add("PlayerCharacter", 
 		new Character(manager, map, 160,160));
+
 	map->Load("test.map");
 
 

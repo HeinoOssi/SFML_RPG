@@ -60,6 +60,9 @@
     <ClCompile Include="PathFinding.cpp">
       <Filter>Source Files\Artificial Intelligence</Filter>
     </ClCompile>
+    <ClCompile Include="EasyEnemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameState.h">
@@ -85,6 +88,9 @@
     </ClInclude>
     <ClInclude Include="PathFinding.h">
       <Filter>Header Files\Artificial Intelligence</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyEnemy.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -20,9 +20,7 @@ int main() {
 	//sf::Style::Fullscreen);
 	coreState.SetWindow(&window);
 	coreState.SetState(new MainMenu());
-
-
-	
+		
 	while (window.isOpen()) {
 		sf::Event event;
 
