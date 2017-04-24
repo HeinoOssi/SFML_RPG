@@ -1,17 +1,14 @@
-﻿  TheGame.cpp
-  Source.cpp
-  PathFinding.cpp
-c:\users\ossihei1\desktop\projects\projektiopinnot 1 - sfml\sfml_rpg\light cable\pathfinding.h(70): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\ossihei1\desktop\projects\projektiopinnot 1 - sfml\sfml_rpg\light cable\pathfinding.h(72): warning C4244: 'return': conversion from 'float' to 'const int', possible loss of data
-  Map.cpp
-  MainMenu.cpp
-c:\users\ossihei1\desktop\projects\projektiopinnot 1 - sfml\sfml_rpg\light cable\mainmenu.cpp(29): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-c:\users\ossihei1\desktop\projects\projektiopinnot 1 - sfml\sfml_rpg\light cable\mainmenu.cpp(33): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
-  GameState.cpp
-  EntityManager.cpp
-  Entity.cpp
-  EasyEnemy.cpp
+﻿  Enemy.cpp
   Character.cpp
   Generating Code...
+  Compiling...
+  TheGame.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Source.cpp
+  Map.cpp
+  MainMenu.cpp
+  EntityManager.cpp
+  EasyEnemy.cpp
   Light Cable.vcxproj -> C:\Users\ossihei1\Desktop\Projects\Projektiopinnot 1 - SFML\SFML_RPG\Debug\Light Cable.exe
   Light Cable.vcxproj -> C:\Users\ossihei1\Desktop\Projects\Projektiopinnot 1 - SFML\SFML_RPG\Debug\Light Cable.pdb (Partial PDB)

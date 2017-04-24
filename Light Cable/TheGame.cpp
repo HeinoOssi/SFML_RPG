@@ -11,24 +11,18 @@ void TheGame::Initialize(sf::RenderWindow* window) {
 	window->clear();
 	this->font = new sf::Font();
 	this->font->loadFromFile("Resources/Xipital.ttf");
-	//this->score = new Score(*font, 64U);
-	//this->lives = new Lives(*font, 64U);
-	//this->lives->setPosition(window->getSize().x - this->lives->getGlobalBounds().width, 0);
-	//this->speech = new Speech(*font, 32U, window);
 
-	//this->pausedText = new sf::Text("Paused\nPress Escape to Quit", *font, 64U);
-	//this->pausedText->setOrigin(this->pausedText->getGlobalBounds().width / 2, this->pausedText->getGlobalBounds().height / 2);
-	//this->pausedText->setPosition(window->getSize().x / 2, window->getSize().y / 2);
 	
 	// renderöi inventory x=1536
 	
 	manager = new EntityManager();
 
 	map = new Map(manager);
+	// add player character, first enemy
+	this->manager->Add("PlayerCharacter", new Character(manager, map, 260,260));
+	this->manager->Add("Enemy", new Enemy(map, 900, 600));
 
-	this->manager->Add("PlayerCharacter", 
-		new Character(manager, map, 160,160));
-
+	// load  map
 	map->Load("test.map");
 
 

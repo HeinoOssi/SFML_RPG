@@ -9,7 +9,8 @@ Character::Character(EntityManager* entityManager,
 {
 	this->Load("character.png");
 	this->setPosition(x, y);
-	this->speed = 0.07f;
+	this->speed = 0.09f;
+	this->Hitpoints = 22;
 	this->map = map;
 	this->groupid = 1;
 	this->entityManager = entityManager;

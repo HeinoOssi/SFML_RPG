@@ -6,7 +6,7 @@
 #include "GameState.h"
 #include "EntityManager.h"
 #include "Map.h"
-
+#include "Enemy.h"
 class TheGame : public TinyState
 {
 public:
